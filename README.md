@@ -128,8 +128,10 @@ accordion.detachEvents();
 | triggerClass | string | 'ac-trigger' | Trigger class |
 | panelClass | string | 'ac-panel' | Panel class |
 | activeClass | string | 'is-active' | Active element class |
+| openCondition | function | `() => true` | Calls to check if the element can be opened. <br> `openCondition: (currElement) => true`|
 | beforeOpen | function | - | Calls before the item is opened. <br> `beforeOpen: (currElement) => {}`|
 | onOpen | function | - | Calls when the item is opened. <br> `onOpen: (currElement) => {}`|
+| closeCondition | function | `() => true` | Calls to check if the element can be closed. <br> `closeCondition: (currElement) => true`|
 | beforeClose | function | - | Calls before the item is closed. <br> `beforeClose: (currElement) => {}`|
 | onClose | function | - | Calls when the item is closed. <br> `onClose: (currElement) => {}`|
 
