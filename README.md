@@ -1,4 +1,6 @@
 # Accordion
+>This is a fork of michu2k's [Accordion](https://github.com/michu2k/Accordion) implementation
+
 Lightweight and accessible accordion module with an extensible API. With the module you can create accordion on your website, useful especially for creating FAQ lists.
 
 ## Version
